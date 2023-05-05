@@ -38,3 +38,6 @@ function verificaDados() {
     document.getElementById('btncad').disabled = true;
     return;
   }
+    // Se chegou até aqui, todos os campos são válidos
+  document.getElementById('btncad').disabled = false;
+};
